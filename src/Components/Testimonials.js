@@ -10,6 +10,8 @@ import SURESH_DESHMUKH from "../Image/SURESH_DESHMUKH.jpg";
 import SANTOSH_MAHATME from "../Image/SANTOSH_MAHATME.jpg";
 import NISHIGANDHA_WAD from "../Image/NISHIGANDHA_WAD.jpg";
 import BHUSHAN_KULKARNI from "../Image/BHUSHAN_KULKARNI.jpg";
+import ASHWANI_KUMAR from "../Image/ASHWANI_KUMAR.png";
+
 import gujrat from "../Image/gujrat.jpg";
 
 const testimonials = [
@@ -27,6 +29,12 @@ const testimonials = [
         name: "Ramandeep Singh",
         role: "Indian cricketer",
         image: RAMANDEEP,
+    },
+
+    {
+        name: "Ashwani Kumar",
+        role: "Ashwani Kumar, born on August 29, 2001, in Jhanjeri, Mohali, is a 23-year-old Indian cricketer. He is a left-handed batsman and a left-arm medium bowler, representing the national side of India.",
+        image: ASHWANI_KUMAR,
     },
     {
         name: "Karn Sharma",

@@ -16,7 +16,7 @@ import FeaturedOn from "./FeaturedOn";
 import course1 from "../Image/course1.jpg"
 import course2 from "../Image/course2.jpg"
 import course3 from "../Image/course3.jpg"
-import course4 from "../Image/course4.jpg"
+import course5 from "../Image/course5.jpg"
 import Book from "../Image/Book.png"
 import { newInterestedUserForNumerologyBookEmailFormat, sendEmailWithAttachment } from "../Email-service/emailSendingService";
 import uphaarfirean from "../Image/uphaar-tragedy-numerology.jpg";
@@ -180,7 +180,7 @@ const Home = () => {
         </div>
       </div>
 
-
+{/* Start Our Prdiction  */}
       <div className="py-8 bg-white text-black font-serif ">
         <div className="container mx-auto px-6 sm:px-8 lg:px-16 max-w-7xl text-center">
           <div className="text-center mb-6">
@@ -317,9 +317,9 @@ const Home = () => {
           </div>
         </div>
       </div>
-
+{/* End Our Prdiction  */}
       <SocialMediaSection />
-
+{/* Start Our Servicese */}
       <div className="text-gray-600 body-font font-serif">
         <div className="py-7 px-6 md:px-10 lg:px-20 mt-5 font-serif bg-cover bg-center mb-6">
           <div className="flex flex-col text-center w-full mb-2 md:mb-6">
@@ -767,6 +767,7 @@ const Home = () => {
           </div> */}
         </div>
       </div>
+{/* End Our Servicese */}
 
 
       <div className="pt-4 pb-16 bg-white text-black font-serif">
@@ -780,7 +781,7 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
             <a
               href="https://pgtlm.courses.store/436648"
               target="_blank"
@@ -836,7 +837,40 @@ const Home = () => {
                 </button>
               </div>
             </a>
+
+
+            {/* ********** */}
+            <a
+              href="https://pgtlm.courses.store/608407?utm_source%3Dother%26utm_medium%3Dtutor-course-referral%26utm_campaign%3Dcourse-overview-webapp"
+              target="_blank"
+              className="flex flex-col md:flex-row bg-white border border-gray-300 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl"
+            >
+              <img
+                className="object-cover w-full md:w-64 h-[200px] md:h-[250px] md:rounded-l-lg border-b md:border-b-0 md:border-r border-gray-200"
+                src={course5}
+                alt="Auspicious Numerology Course"
+              />
+              <div className="flex flex-col justify-between p-4 w-full">
+                <h5 className="mb-2 text-xl sm:text-2xl font-bold text-gray-900">
+                  Business Numerology 
+                </h5>
+                <h6 className="mb-2 text-lg sm:text-xl font-semibold text-amber-600">
+                  Basic to Advance
+                </h6>
+                <p className="text-lg font-bold text-gray-800 mr-2">Starts at</p>
+                <p className="text-gray-700">
+                  <span className="line-through text-gray-900 mr-2 font-bold">INR 5,025</span>
+                  <span className="text-customBrown text-xl font-bold">INR 575 /-</span>
+                </p>
+                <button className="bg-customBrown text-white font-semibold py-2 px-4 rounded-full mt-3 hover:bg-customOrange transition-colors duration-300 text-sm">
+                  Enroll Now
+                </button>
+              </div>
+            </a>
           </div>
+
+
+
         </div>
       </div>
 
